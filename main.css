@@ -1,0 +1,79 @@
+.octodex {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+.octocat > a > img {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.octocat {
+  float: left;
+}
+
+.image-footer {
+  margin-top: 10px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 1px;
+  position: relative;
+}
+
+.image-footer:before {
+  content: '';
+  position: absolute;
+  right: 3px;
+  top: -13px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 9px 0 10px;
+  border-color: #cccfd4 transparent transparent transparent;
+}
+
+.image-number {
+  color: lightgrey;
+}
+
+.image-number:before {
+  content: "#";
+}
+
+.image-caption {
+  float: right;
+  color: grey;
+}
+
+.image-caption a {
+  text-decoration: none;
+  color: black;
+}
+
+.authors img {
+  width: 22px;
+  border-radius: 3px;
+}
+
+.authors a {
+  text-decoration: none;
+}
+
+.authors {
+  float: right;
+  padding-left: 7px;
+  padding-bottom: 5px;
+}
